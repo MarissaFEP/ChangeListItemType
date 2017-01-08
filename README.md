@@ -1,0 +1,1 @@
+A RadioGroup component containing two radio options, single and multiple, swtiches two kinds of list of items, a radio list or a checkbox list.

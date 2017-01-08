@@ -1,0 +1,12 @@
+.ListItems-List {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: stretch;
+}
+
+.ListItems-Item {
+    align-self: flex-start;
+}
