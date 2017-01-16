@@ -5,8 +5,11 @@
     justify-content: flex-start;
     align-content: flex-start;
     align-items: stretch;
+    
 }
 
 .ListItems-Item {
     align-self: flex-start;
+
+    padding: 10px;
 }

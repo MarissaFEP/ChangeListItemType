@@ -52,13 +52,19 @@ class App extends PureComponent {
   };
 
   render() {
+    const {selType, options} = this.state;
+
     return (
       <div className="App">
-        <SelType value={this.state.selType} onChange={this.handleGetTypeChange}/>
-        <ListItems selType={this.state.selType} options={this.state.options}/>
+        <SelType value={selType} onChange={this.handleGetTypeChange}/>
+        <ListItems selType={selType} options={options} onChange={this.handleChange}/>
       </div>
     );
   }
+
+  handleChange = (options) => {
+    this.setState({options});
+  };
 }
 
 export default App;
